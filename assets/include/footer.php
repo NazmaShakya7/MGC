@@ -1,6 +1,6 @@
-<footer class="uk-section">
+<footer class="uk-section uk-white-top uk-position-relative">
    <div class="uk-container">
-   
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque ut ullam harum optio eligendi eius aliquid? Ipsam, delectus, quis sed perspiciatis labore in voluptatibus et, rerum unde quidem excepturi.q
    </div>
 </footer>
 

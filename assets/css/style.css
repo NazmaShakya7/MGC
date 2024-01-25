@@ -213,3 +213,24 @@ a:hover{
     height: 100%;
     object-fit: cover;
 }
+/* --------------------------------- Footer --------------------------------- */
+/* book now */
+.book-now{
+    background-color: black;
+    height: 200px;
+}
+
+/* footer */
+.uk-white-top::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 119px;
+    position: absolute;
+    top: -118px;
+    left: 0;
+    background: url(../img/footer-banner.png) ;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
