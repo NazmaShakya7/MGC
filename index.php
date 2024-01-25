@@ -54,7 +54,7 @@
                 </div>
             </div>
             <div class=" uk-services-content">
-                <div class="uk-padding uk-flex uk-flex-middle uk-flex-column uk-text-center">
+                <div class="uk-padding uk-flex uk-flex-middle uk-flex-center uk-flex-column uk-text-center">
                     <div class="uk-title ">
                         <h4 class="uk-margin-remove">Services</h4>
                     </div>
@@ -74,14 +74,14 @@
                 </div>
             </div>
             <div class=" uk-services-content">
-                <div class="uk-padding uk-flex uk-flex-middle uk-flex-column uk-text-center">
+                <div class="uk-padding uk-flex uk-flex-middle uk-flex-center uk-flex-column uk-text-center">
                     <div class="uk-title ">
                         <h4 class="uk-margin-remove">Services</h4>
                     </div>
                     <div class="uk-section-title uk-text-center">
-                        <h2>Just Bartenders</h2>
+                        <h2>Just Wait Staff</h2>
                     </div>
-                    <p>Offering your guests an exclusive beverage is vital at any event. Let our high energy bartenders customize some flavorful liquid refreshments to create a buzz-worthy experience!</p>
+                    <p>Let our reliable, experienced and professional staff exceed your expectations and put your mind at ease. Our years of knowledge, attention to detail and know-how allows you to totally relax and truly enjoy your special occasion.</p>
                     <div class="uk-text-center mt-5">
                         <a href="" class="uk-btn uk-primary ">Read More</a>
                     </div>
@@ -94,14 +94,14 @@
                 </div>
             </div>
             <div class=" uk-services-content">
-                <div class="uk-padding uk-flex uk-flex-middle uk-flex-column uk-text-center">
+                <div class="uk-padding uk-flex uk-flex-middle uk-flex-center uk-flex-column uk-text-center">
                     <div class="uk-title ">
                         <h4 class="uk-margin-remove">Services</h4>
                     </div>
                     <div class="uk-section-title uk-text-center">
-                        <h2>Just Bartenders</h2>
+                        <h2>Just Food</h2>
                     </div>
-                    <p>Offering your guests an exclusive beverage is vital at any event. Let our high energy bartenders customize some flavorful liquid refreshments to create a buzz-worthy experience!</p>
+                    <p>Our catering creations are a deep form of love we live to share with people. Whether it's an hors d'oeuvre or an extravagant spread, you'll taste the passion in every bite.</p>
                     <div class="uk-text-center mt-5">
                         <a href="" class="uk-btn uk-primary ">Read More</a>
                     </div>

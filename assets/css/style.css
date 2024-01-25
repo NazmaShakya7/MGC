@@ -201,10 +201,6 @@ a:hover{
 }
 .uk-services-content{
     background-color: #FFEFE8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
 }
 /* ---------------------------------- media --------------------------------- */
 .media{
