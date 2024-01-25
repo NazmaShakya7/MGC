@@ -1,6 +1,6 @@
 <?php include('assets/include/header.php') ?>
 
-/* --------------------------------- Banner --------------------------------- */
+<!-- /* --------------------------------- Banner --------------------------------- */ -->
 <section class="uk-hero-banner uk-position-relative uk-flex uk-flex-center uk-flex-middle" style="background-image:url('assets/img/banner.jpg');">
     <div class="uk-container uk-z3 uk-width-3-4@m">
         <div class="uk-white-title">
@@ -16,7 +16,7 @@
     </div>
 </section>
 
-/* ---------------------------------- About --------------------------------- */
+<!-- /* ---------------------------------- About --------------------------------- */ -->
 <section class="uk-section uk-about uk-padding-remove-horizontal">
     <div class="uk-container-xlarge uk-padding-remove-horizontal">
         <div class="uk-grid uk-grid-collapse uk-grid-match">
@@ -46,7 +46,7 @@
     </div>
 </section>
 
-/* -------------------------------- Services -------------------------------- */
+<!-- /* -------------------------------- Services -------------------------------- */ -->
 <section class="uk-section uk-services uk-padding-remove-horizontal">
     <div class="uk-container-xlarge uk-padding-remove-horizontal">
         <div class="uk-grid uk-child-width-1-3@m uk-grid-collapse uk-grid-match" uk-scrollspy="target:.uk-title ,h2,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
@@ -114,7 +114,7 @@
     </div>
 </section>
 
-/* -------------------------------- Book Now -------------------------------- */
+<!-- /* -------------------------------- Book Now -------------------------------- */ -->
 <section class="uk-section book-now">
     <div class="uk-container">
         
