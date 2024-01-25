@@ -1,7 +1,35 @@
-<footer class="uk-section uk-white-top uk-position-relative">
-   <div class="uk-container">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam doloremque ut ullam harum optio eligendi eius aliquid? Ipsam, delectus, quis sed perspiciatis labore in voluptatibus et, rerum unde quidem excepturi.q
-   </div>
+<footer class="uk-section uk-services  uk-padding-remove-bottom uk-white-top uk-position-relative">
+   <div class="uk-container border-bottom">
+        <div class="uk-grid uk-child-width-1-4@m uk-grid-collapse " uk-scrollspy="target:.uk-title ,h3,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
+           <div class="">
+           <img src="assets/img/logo.png" class="uk-logo-white" width="100" alt="">
+           <p>MGC Catering and Events is your all-in-one resource for every aspect of your event. Our focus is committed to the details and flawless execution. </p>
+           </div>
+           <div class="uk-text-center uk-padding uk-padding-remove-top">
+               <h3 class="border-bottom ">LINKS</h3>
+               <p class="uk-margin-remove">About</p>
+               <p class="uk-margin-remove">Team</p>
+               <p class="uk-margin-remove">Contact</p>
+               <p class="uk-margin-remove">Services</p>
+           </div>
+           <div class="uk-text-center uk-padding uk-padding-remove-top">
+               <h3 class="border-bottom">OPERNING HOURS</h3>
+               <p class="uk-margin-remove">Mon-Thurs: 10:00 AM - 11:00 PM</p>
+               <p class="uk-margin-remove">Mon-Thurs: 10:00 AM - 11:00 PM</p>
+               
+           </div>
+           <div class="uk-text-center uk-padding uk-padding-remove-top">
+               <h3 class="border-bottom">LOCATION</h3>
+               <p class="uk-margin-remove">Laltipur,Nepal</p>
+               <p class="uk-margin-remove">P.O. Box 45676</p>
+               <p class="uk-margin-remove">+97745445547</p>
+               <p class="uk-margin-remove">info@gmail.com</p>
+           </div>
+        </div>
+    </div>
+    <div class="uk-container uk-text-center uk-padding" uk-scrollspy="target:.uk-title ,h3,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
+      <p>Copyright ©2024 All rights reserved | Made by Cyberlink Pvt Ltd</p>
+    </div>
 </footer>
 
 <div id="nav-offcanvas" uk-offcanvas="mode: none; overlay: true" >

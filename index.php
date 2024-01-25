@@ -114,10 +114,58 @@
     </div>
 </section>
 
+
+<!-- /* --------------------------------  Gallery -------------------------------- */ -->
+<section class="uk-section uk-gallery">
+    <div class="uk-container uk-flex uk-flex-center uk-flex-middle uk-flex-column">
+        <div class=" uk-width-3-4@m uk-flex uk-flex-center uk-flex-middle uk-flex-column" uk-scrollspy="target:.uk-primary-title ,h2,p; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
+            <div class="uk-primary-title ">
+                <h4 class="uk-margin-remove">Our Gallery</h4>
+            </div>
+            <div class="uk-section-title uk-text-center">
+                <h2>Our Catering Food Service</h2>
+            </div>
+            <p class="uk-text-center">MGC Catering and Events is your all-in-one resource for every aspect of your event. Our focus is committed to the details and flawless execution. Our unsurpassed customer service, and genuine passion for helping people make us truly the undisputable top choice. </p>
+        </div>
+
+        <div class="uk-grid uk-grid-small uk-grid-match uk-margin-large-top" uk-scrollspy="target:.uk-title ,h2,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;" uk-lightbox="animation: slide">
+            <div class="uk-width-1-4@m">
+                <a class="uk-inline mb-2" href="assets/img/banner.jpg">
+                <div class="media-250  ">
+                        <img src="assets/img/banner.jpg" alt="">
+                    </div>
+                </a>
+                <a class="uk-inline" href="assets/img/banner.jpg">
+                <div class="media-250  ">
+                        <img src="assets/img/banner.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div class="uk-width-1-2@m ">
+                <a class="uk-inline" href="assets/img/banner.jpg">
+                    <img src="assets/img/banner.jpg" style="height: 100%; width:100%;" alt="">
+                </a>
+            </div>
+            <div class="uk-width-1-4@m">
+                <a class="uk-inline" href="assets/img/banner.jpg">
+                <div class="media-250  ">
+                        <img src="assets/img/banner.jpg" alt="">
+                    </div>
+                </a>
+                <a class="uk-inline" href="assets/img/banner.jpg">
+                <div class="media-250  ">
+                        <img src="assets/img/banner.jpg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- /* -------------------------------- Book Now -------------------------------- */ -->
 <section class="uk-section book-now">
     <div class="uk-container">
-        
+
     </div>
 </section>
 <?php include('assets/include/footer.php') ?>

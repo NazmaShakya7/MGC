@@ -22,6 +22,9 @@ li{
 .mt-5{
     margin-top: 50px;
 }
+.mb-2{
+    margin-top: 20px;
+}
 /* --------------------------------- button --------------------------------- */
 .uk-primary{
     background-color: var(--primary);
@@ -204,11 +207,35 @@ a:hover{
 }
 /* ---------------------------------- media --------------------------------- */
 .media{
-    height: 28rem;
+    height: 470px;
     width: 100%;
     vertical-align: middle;
 }
-.media img{
+.media-200{
+    height: 200px;
+    width: 100%;
+    vertical-align: middle;
+}
+.media-250{
+    height: 250px;
+    width: 100%;
+    vertical-align: middle;
+}
+.media-350{
+    height: 350px;
+    width: 100%;
+    vertical-align: middle;
+}
+.media-400{
+    height: 400px;
+    width: 100%;
+    vertical-align: middle;
+}
+.media img,
+.media-200 img,
+.media-250 img,
+.media-350 img,
+.media-400 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -233,4 +260,7 @@ a:hover{
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.border-bottom{
+    border-bottom: 1px solid #8D8D8D ;
 }
