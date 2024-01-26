@@ -3,7 +3,7 @@
 <section class="uk-inner-banner uk-position-relative uk-flex uk-flex-center uk-flex-middle" >
     <div class="uk-container  uk-width-3-4@m" uk-scrollspy="target:.uk-white-title; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
         <div class="uk-white-title">
-            <h1 class="uk-banner-inner-title text-white uk-text-center uk-margin-remove-top">Contact Us</h1>
+            <h1 class="uk-banner-inner-title text-white uk-text-center uk-margin-remove-top">Services</h1>
             <h4 class="uk-text-center uk-margin-remove">Home / Services</h4>
         </div>
     </div>
