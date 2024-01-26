@@ -1,4 +1,5 @@
-<footer class="uk-section uk-services  uk-padding-remove-bottom uk-white-top uk-position-relative">
+
+<footer class="uk-section uk-services  uk-padding-remove-bottom  uk-position-relative">
    <div class="uk-container border-bottom">
         <div class="uk-grid uk-child-width-1-4@m uk-grid-collapse " uk-scrollspy="target:.uk-title ,h3,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
            <div class="uk-text-left@l uk-text-center">
@@ -7,10 +8,10 @@
            </div>
            <div class="uk-text-center uk-padding uk-padding-remove-top">
                <h3 class="border-bottom ">LINKS</h3>
-               <a href=""><p class="uk-margin-remove">About</p></a>
-               <a href=""><p class="uk-margin-remove">Team</p></a>
-               <a href=""><p class="uk-margin-remove">Contact</p></a>
-               <a href=""><p class="uk-margin-remove">Services</p></a>
+               <a href="index.php"><p class="uk-margin-remove">Home</p></a>
+               <a href="about.php"><p class="uk-margin-remove">About</p></a>
+               <a href="contact.php"><p class="uk-margin-remove">Contact</p></a>
+               <a href="services.php"><p class="uk-margin-remove">Services</p></a>
            </div>
            <div class="uk-text-center uk-padding uk-padding-remove-top">
                <h3 class="border-bottom">OPERNING HOURS</h3>
@@ -24,6 +25,12 @@
                <p class="uk-margin-remove">P.O. Box 45676</p>
                <p class="uk-margin-remove">+97745445547</p>
                <p class="uk-margin-remove">info@gmail.com</p>
+               <div class=" uk-small-nav-icon-footer uk-margin-small-top">
+                  <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            </div>
            </div>
         </div>
     </div>

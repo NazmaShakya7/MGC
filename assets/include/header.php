@@ -46,20 +46,23 @@
                   <img src="assets\img\logo.png" alt="" style="width:100px;  height: 80px;">
                </div>
             </header>
-
+            <div style="height:1px; background:#d2563669; "></div>
             <nav class="uk-card-small uk-card-body uk-nav-small">
-               <ul class="uk-nav-default offcanvas-font" uk-nav>
-                  <li><a href="index.php">Home</a></li>
+               <ul class="uk-nav-default offcanvas-font uk-padding-medium " uk-nav>
+                  <li><a href="index.php"><i class="fa-solid fa-caret-right uk-margin-right"></i> Home</a></li>
                   <li>
-                     <a href="about.php">About</a>
+                     <a href="about.php"><i class="fa-solid fa-caret-right uk-margin-right"></i> About</a>
                   </li>
                   <li>
-                     <a href="services.php">Services</a>
+                     <a href="services.php"><i class="fa-solid fa-caret-right uk-margin-right"></i> Services</a>
                   </li>
                   <li>
-                     <a href="contact.php">Contact</a>
+                     <a href="contact.php"><i class="fa-solid fa-caret-right uk-margin-right"></i>Contact</a>
                   </li>
                </ul>
+               <div class="uk-margin">
+                  <a href="" class="uk-btn-nav uk-primary ">Reservation</a>
+               </div>
             </nav>
             <div style="height:1px; background:#d2563669; "></div>
             <div class="off-canvas-icon uk-text-center uk-margin-top">
