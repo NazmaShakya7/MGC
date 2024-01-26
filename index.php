@@ -162,10 +162,82 @@
     </div>
 </section>
 
+<!-- /* -------------------------------- Testinonial -------------------------------- */ -->
+<section class="uk-section uk-about uk-padding-remove-horizontal">
+    <div class="uk-container-xlarge uk-padding-remove-horizontal">
+        <div class="uk-grid uk-grid-collapse uk-grid-match">
+            <div class="uk-width-1-5@m" uk-scrollspy="cls: uk-animation-slide-left; repeat: true; delay:200">
+                <img src="assets/img/test3.jpeg" alt="">
+            </div>
+            <div class="uk-width-3-5@m uk-padding-small" uk-scrollspy="target:.uk-primary-title,h2,p,img,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;" style="overflow:hidden;">
+                <div class="uk-padding uk-flex uk-flex-middle uk-flex-column uk-text-center">
+                    <div class="uk-primary-title ">
+                        <h4 class="uk-margin-remove">Testimonial</h4>
+                    </div>
+                    <div class="uk-section-title uk-text-center">
+                        <h2>Client Reviews</h2>
+                    </div>
+                </div>
+                <div class="uk-slider-container-offset" uk-slider >
+                    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        <ul class="uk-slider-items uk-child-width-1-1@s uk-grid ">
+                            <li>
+                                <div class="uk-card uk-card-default testimonial-card ">
+                                    <div class="uk-card-media-top uk-flex uk-flex-center testinominal-img-section">
+                                        <img src="assets/img/test1.jpg"  alt="">
+                                    </div>
+                                    <div class="uk-card-body uk-text-center">
+                                        
+                                        <p>Let our reliable, experienced and professional staff exceed your expectations and put your mind at ease. Our years of knowledge, attention to detail and know-how allows you to totally relax and truly enjoy your special occasion.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="uk-card uk-card-default testimonial-card ">
+                                    <div class="uk-card-media-top uk-flex uk-flex-center testinominal-img-section">
+                                        <img src="assets/img/banner.jpg"  alt="">
+                                    </div>
+                                    <div class="uk-card-body uk-text-center">
+                                        
+                                        <p>Let our reliable, experienced and professional staff exceed your expectations and put your mind at ease. Our years of knowledge, attention to detail and know-how allows you to totally relax and truly enjoy your special occasion.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
+                        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
+                    </div>
+                    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                    </div>
+                </div>
+            <div class="uk-width-1-5@m" uk-scrollspy="cls: uk-animation-slide-right; repeat: true; delay:200">
+                <img src="assets/img/test2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- /* -------------------------------- Book Now -------------------------------- */ -->
 <section class="uk-section book-now">
-    <div class="uk-container">
-
+    <div class="uk-container uk-text-center" uk-scrollspy="target:.uk-title ,.uk-text-white,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
+        <div class="uk-title uk-text-white">
+            <h4>Online Reservation</h4>
+        </div>
+        <div class="uk-section-title  ">
+            <h2 class="uk-text-white">BOOK AN RESERVATION</h2>
+        </div>
+        <div class="uk-text-white">
+            <p >Are you planning on throwing a huge party?</p>
+            <p class="uk-margin-remove">Let’s start creating that amazing celebration your guests will <br>compare others to for years.</p>
+        </div>
+        <div class="uk-text-white uk-margin">
+            <h2>For More Information:</h2>
+            <p>Mail: abc@gmail.com</p>
+            <p class="uk-margin-remove">Call: +97865345345</p>
+        </div>
+        <div class="uk-text-center mt-5">
+            <a href="" class="uk-btn uk-primary ">Read More</a>
+        </div>
     </div>
 </section>
 <?php include('assets/include/footer.php') ?>
