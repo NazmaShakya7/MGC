@@ -236,7 +236,7 @@
             <p class="uk-margin-remove">Call: +97865345345</p>
         </div>
         <div class="uk-text-center mt-5">
-            <a href="" class="uk-btn uk-primary ">Read More</a>
+            <a href="contact.php" class="uk-btn uk-primary ">Read More</a>
         </div>
     </div>
 </section>
