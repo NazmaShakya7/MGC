@@ -1,16 +1,16 @@
 <footer class="uk-section uk-services  uk-padding-remove-bottom uk-white-top uk-position-relative">
    <div class="uk-container border-bottom">
         <div class="uk-grid uk-child-width-1-4@m uk-grid-collapse " uk-scrollspy="target:.uk-title ,h3,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
-           <div class="">
-           <img src="assets/img/logo.png" class="uk-logo-white" width="100" alt="">
-           <p>MGC Catering and Events is your all-in-one resource for every aspect of your event. Our focus is committed to the details and flawless execution. </p>
+           <div class="uk-text-left@l uk-text-center">
+           <img src="assets/img/logo.png" class="uk-logo-white" width="100" alt="" style="margin-top:-49px;">
+           <p style="font-size:16px!important;">MGC Catering and Events is your all-in-one resource for every aspect of your event. Our focus is committed to the details and flawless execution. </p>
            </div>
            <div class="uk-text-center uk-padding uk-padding-remove-top">
                <h3 class="border-bottom ">LINKS</h3>
-               <p class="uk-margin-remove">About</p>
-               <p class="uk-margin-remove">Team</p>
-               <p class="uk-margin-remove">Contact</p>
-               <p class="uk-margin-remove">Services</p>
+               <a href=""><p class="uk-margin-remove">About</p></a>
+               <a href=""><p class="uk-margin-remove">Team</p></a>
+               <a href=""><p class="uk-margin-remove">Contact</p></a>
+               <a href=""><p class="uk-margin-remove">Services</p></a>
            </div>
            <div class="uk-text-center uk-padding uk-padding-remove-top">
                <h3 class="border-bottom">OPERNING HOURS</h3>
@@ -28,7 +28,7 @@
         </div>
     </div>
     <div class="uk-container uk-text-center uk-padding" uk-scrollspy="target:.uk-title ,h3,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
-      <p>Copyright ©2024 All rights reserved | Made by Cyberlink Pvt Ltd</p>
+      <p>Copyright ©2024 All rights reserved | <a href="">Made by Cyberlink Pvt Ltd</a></p>
     </div>
 </footer>
 
@@ -37,7 +37,7 @@
    <button class="uk-offcanvas-close " type="button" style="color:var(--primary)!important;" uk-close></button>
       <header class="uk-card-header uk-flex uk-padding-small " >
          <div class="uk-flex ">
-            <img src="assets/img/logo.jpg" alt="" style="width:100%;  height: 80px;">
+            <img src="assets\img\logo.png" alt="" style="width:100%;  height: 80px;">
          </div>
       </header>
       <div style="height:1px; background:#d2563669; "></div>

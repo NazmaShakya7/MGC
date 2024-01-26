@@ -39,24 +39,34 @@
       </header>
 
       <div id="uk-menu" uk-offcanvas>
-         <div class="uk-offcanvas-bar">
+      <div class="uk-offcanvas-bar uk-padding-remove">
+         <button class="uk-offcanvas-close " type="button" style="color:var(--primary)!important;" uk-close></button>
+            <header class="uk-card-header  uk-padding-small " >
+               <div class="uk-flex uk-flex-center">
+                  <img src="assets\img\logo.png" alt="" style="width:100px;  height: 80px;">
+               </div>
+            </header>
 
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
-            <div class="uk-width-expand">
-							<ul class="uk-menu-list">
-								<li><a href="about-us.php"><span value="#about">About Hotel</span></a></li>
-								<li><a href="rooms.php"><span value="#rooms">Rooms & Suite</span></a></li>
-								<li><a href="restaurant-bar.php"><span value="#restaurant">Restaurant & Bar</span></a></li>
-								<li><a href="meeting-conference.php"><span value="#meeting">Meeting & Conference </span></a></li>
-								<li><a href="surrounding-facilities.php"><span value="#SurroundingFacilities">Surrounding Facilities</span></a></li>
-								<li><a href="packages.php"><span value="#packages">Packages</span></a></li>
-								<li><a href="clients-reviews.php"><span value="#ClientsReviews">Clients Reviews</span></a></li>
-								<li><a href="gallery.php"><span value="#gallery">Gallery</span></a></li>
-								<li><a href="contact.php"><span value="#contact">Contact Us</span></a></li>
-							</ul>
-							<div class="uk-margin-top">
-								<a href="" download class="uk-hav-btn uk-hav-btn-primary "><span class="uk-margin-small-right"><i class=" fa-solid fa-arrow-down-long"></i></span> E-Brochure</a>
-							</div>
-						</div>
+            <nav class="uk-card-small uk-card-body uk-nav-small">
+               <ul class="uk-nav-default offcanvas-font" uk-nav>
+                  <li><a href="index.php">Home</a></li>
+                  <li>
+                     <a href="about.php">About</a>
+                  </li>
+                  <li>
+                     <a href="services.php">Services</a>
+                  </li>
+                  <li>
+                     <a href="contact.php">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+            <div style="height:1px; background:#d2563669; "></div>
+            <div class="off-canvas-icon uk-text-center uk-margin-top">
+               <a href="#"><i class="fa-brands fa-facebook uk-margin-small-right" ></i></a>
+               <a href="#"><i class="fa-brands fa-twitter uk-margin-small-right"></i></a>
+               <a href="#"><i class="fa-brands fa-instagram uk-margin-small-right"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin uk-margin-small-right"></i></a>
+            </div>
          </div>
       </div>

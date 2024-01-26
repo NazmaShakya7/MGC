@@ -241,10 +241,30 @@ a:hover{
     object-fit: cover;
 }
 /* --------------------------------- Footer --------------------------------- */
+
+
+/* testimonial */
+.testinominal-img-section img{
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.testimonial-card{
+    box-shadow: none !important;
+}
 /* book now */
+.uk-text-white{
+    color: var(--white)!important;
+}
+.uk-text-white p, .uk-text-white h2,.uk-text-white h4{
+    color: var(--white)!important;
+}
 .book-now{
-    background-color: black;
-    height: 200px;
+    background-image: url(../img/book.png);
+    padding-bottom: 190px !important;
+    background-attachment: fixed;
 }
 
 /* footer */
@@ -256,11 +276,26 @@ a:hover{
     position: absolute;
     top: -118px;
     left: 0;
-    background: url(../img/footer-banner.png) ;
+    background: url(https://hotelpadma.com.np/wp-content/themes/wp-bootstrap-starter/images/texture.png) ;
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .border-bottom{
     border-bottom: 1px solid #8D8D8D ;
+}
+
+body{
+    overflow-x: hidden;
+}
+/* offcanvas */
+.uk-offcanvas-bar{
+    background-color: white !important;
+}
+.offcanvas-font li a{
+    font-size: 19px !important;
+    font-family: 'Cormorant Garamond', serif !important;
+    color: var(--secondary) !important;
+    margin-bottom: 0 !important;
+    font-weight: 600 !important;
 }
