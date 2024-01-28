@@ -4,10 +4,23 @@
 }
 
 /*tablets only*/
-@media only screen and (min-width: 481px) and (max-width: 768px)  {
-   
+@media only screen and (min-width: 481px) and (max-width: 960px)  {
+    html{
+        font-size: 15px !important;
+    }
 }
 /*mobile only*/
  @media only screen and (max-device-width: 480px) {
+        html{
+            font-size: 14px !important;
+        }
        /* styles for mobile browsers smaller than 480px; (iPhone) */
+       .uk-about{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+       }
+       .uk-padding-large{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+       }
     }

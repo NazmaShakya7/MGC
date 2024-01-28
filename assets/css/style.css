@@ -23,7 +23,13 @@ li{
     margin-top: 50px;
 }
 .mb-2{
-    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mb-010{
+    margin-bottom: 10px;
+}
+.pb-0{
+    padding-bottom: 0 !important;
 }
 /* --------------------------------- button --------------------------------- */
 .uk-primary{
@@ -31,7 +37,7 @@ li{
 }
 .uk-btn{
     padding: 0.78rem 3.5rem;
-    color: white;
+    color: white !important;
     transition: all .3s ease;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
@@ -44,6 +50,10 @@ li{
     font-family: 'Cormorant Garamond', serif;
     font-weight: 600;
     font-size: 1.2rem;
+}
+.uk-btn:hover, .uk-btn-nav:hover{
+    color: white !important;
+    background-color: rgb(250, 147, 100);
 }
 /* ------------------------------- Typography ------------------------------- */
 h1,
@@ -71,7 +81,7 @@ a:hover{
 }
 .text-secondary,
 .text-secondary>* {
-    color: var(--secondary);
+    color: var(--secondary) !important;
 }
 
 .text-white,
@@ -88,7 +98,6 @@ a:hover{
     font-size: 1.2rem;
     color: var(--white);
     font-family: satisfy;
-    font-weight: 500;
     margin-bottom: 10px;
 }
 
@@ -133,6 +142,15 @@ a:hover{
 }
 
 /* --------------------------------- Navbar --------------------------------- */
+.uk-nav-small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 2rem 2rem !important;
+    
+}
+
 .uk-navbar {
     align-items: center !important;
     background: var(--white);
@@ -140,32 +158,27 @@ a:hover{
 .uk-navbar-container:not(.uk-navbar-transparent){
     background-color: var(--white);
 }
-
+.uk-nav-default{
+    width: 100%;
+}
+.uk-nav li>a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25em;
+    text-decoration: none;
+}
+.uk-nav-small li a{
+    transition: all .3s ease;
+    text-align: center !important;
+}
+.uk-nav-small li a:hover{
+    color: var(--primary) !important;
+    transform: translateX(3px) !important;
+}
 .uk-main-header.uk-active.uk-sticky-below.uk-sticky-fixed {
     background: var(--white);
     box-shadow: 0 0px 88px 8px rgb(0 0 0 / 8%);
-}
-.uk-fixed-menu {
-    width: 100%;
-    z-index: 1;
-    background-color: #000;
-
-
-}
-.uk-fixed-menu.uk-fixed-menu::before {
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    width: 100%;
-    background: red;
-    filter: blur(1px);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: .2;
 }
 
 /* ---------------------------------- index --------------------------------- */
@@ -176,6 +189,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 103vh;
 }
 .uk-hero-banner::before{
@@ -191,8 +205,10 @@ a:hover{
 }
 .texture {
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
     z-index: 3;
+    height: 100px;
+    width: 100%;
 }
 .texture img{
     width: 100%;
@@ -240,6 +256,18 @@ a:hover{
     height: 100%;
     object-fit: cover;
 }
+/* --------------------------------- Gallery -------------------------------- */
+
+.uk-gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.uk-gallery-img a{
+    height: 100%;
+    width: 100%;
+    display: block !important;
+}
 /* --------------------------------- Footer --------------------------------- */
 
 
@@ -276,7 +304,7 @@ a:hover{
     position: absolute;
     top: -118px;
     left: 0;
-    background: url(https://hotelpadma.com.np/wp-content/themes/wp-bootstrap-starter/images/texture.png) ;
+    background: url(assets/img/texture.png) ;
     z-index: 1;
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,13 +317,78 @@ body{
     overflow-x: hidden;
 }
 /* offcanvas */
-.uk-offcanvas-bar{
-    background-color: white !important;
-}
-.offcanvas-font li a{
-    font-size: 19px !important;
-    font-family: 'Cormorant Garamond', serif !important;
-    color: var(--secondary) !important;
+.uk-offcanvas-bar {
+    background-color: #FFEFE8;
+  }
+.offcanvas-font li a {
+    font-size: 1.3rem !important;
+    padding: 0.8rem 0;
+    font-family: "Cormorant Garamond", serif !important;
     margin-bottom: 0 !important;
     font-weight: 600 !important;
+}
+
+.off-canvas-icon a i{
+    color: var(--secondary);
+    font-size: 1.8rem;
+}
+.uk-small-nav-icon-footer a i{
+    color:var(--secondary);
+    font-size: 18px;
+    margin-left: 7px;
+}
+/* ---------------------------------inner page --------------------------------- */
+
+.uk-inner-banner{
+    height: 60vh;
+    background-color: #f34c0091;;
+}
+.uk-banner-inner-title{
+    font-size: 3.5rem;
+    line-height: 1;
+}
+/* contact */
+.contact-grid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-box{
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.contact-box i {
+  font-size: 30px;
+  font-weight: bold;
+  color:var(--white);
+}
+.border-left{
+  border-left: 1px solid #e5e5e5;
+}
+select{
+  width: 100%;
+  border: 0 none;
+  padding: 10px;
+  background: #fff;
+  color: #666;
+  border: 1px solid #e5e5e5;
+  transition: .2s ease-in-out;
+  transition-property: color,background-color,border;
+}
+ 
+/* services */
+.services-include-list li{
+  list-style: none;
+  background: url('../img/check-mark.png') left center no-repeat;
+  padding-left: 30px;
+  margin-bottom: 8px;
+  font-size: 19px;
+  font-family: "Cormorant Garamond", serif;
+  color: var(--secondary);
+  margin-bottom: 0;
+  font-weight: 600;
 }
