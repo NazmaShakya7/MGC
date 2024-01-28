@@ -146,7 +146,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem 2rem 2rem !important;
+    padding: 1rem 2rem 1rem !important;
     
 }
 
@@ -300,19 +300,7 @@ a:hover {
 footer{
   background-image: url("../img/brownback.jpg");
 }
-.uk-white-top::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 119px;
-  position: absolute;
-  top: -118px;
-  left: 0;
-  background: url(https://hotelpadma.com.np/wp-content/themes/wp-bootstrap-starter/images/foot-texture.png);
-  z-index: 1;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .border-bottom {
   border-bottom: 1px solid #8d8d8d;
 }

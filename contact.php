@@ -44,7 +44,7 @@
     
     <div class="uk-container uk-margin-large-top">
         <hr>
-        <div class="uk-child-width-1-2@m uk-margin-large-top"  uk-grid uk-height-match=".form-height" uk-scrollspy="target:div,h3,iput,select,iframe; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
+        <div class="uk-child-width-1-2@m uk-margin-large-top"  uk-grid uk-height-match=".form-height" uk-scrollspy=" cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
             <div class=" form-height">
                 <div style="">
                     <h3 >Booking For Reservation</h3>
