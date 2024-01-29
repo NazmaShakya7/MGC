@@ -76,6 +76,10 @@ a {
 a:hover {
   text-decoration: none;
 }
+.text-primary,
+.text-primary>* {
+    color: var(--primary) !important;
+}
 .text-secondary,
 .text-secondary>* {
     color: var(--secondary) !important;

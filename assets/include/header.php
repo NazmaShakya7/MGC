@@ -34,7 +34,7 @@
                         </div>
                         <div class="uk-navbar-right uk-visible@m">
                             <div class="uk-navbar-item">
-                                <a href="" class="uk-btn-nav uk-primary ">Reservation</a>
+                                <a href="contact.php" class="uk-btn-nav uk-primary ">Reservation</a>
                             </div>
                         </div>
                     </nav>

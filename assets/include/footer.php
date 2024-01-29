@@ -35,7 +35,7 @@
         </div>
     </div>
     <div class="uk-container uk-text-center uk-padding" uk-scrollspy="target:.uk-title ,h3,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
-      <p>Copyright ©2024 All rights reserved | <a href="">Made by Cyberlink Pvt Ltd</a></p>
+      <p>Copyright ©2024 All rights reserved | <a href="" class="text-primary">Made by Cyberlink Pvt Ltd</a></p>
     </div>
 </footer>
 

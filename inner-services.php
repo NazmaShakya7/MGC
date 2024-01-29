@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="texture">
-        <img src="https://hotelpadma.com.np/wp-content/themes/wp-bootstrap-starter/images/texture.png" alt="">
+        <img src="assets/img/texture.png" alt="">
     </div>
 </section>
 <section class="uk-section">
@@ -16,7 +16,7 @@
         <div class="uk-grid uk-child-width-1-2@m uk-grid-collapse uk-grid-match" uk-scrollspy="target:.uk-title ,h2,p,.uk-btn; cls: uk-animation-slide-top-medium;   delay: 50; repeat: true;">
             <div>
                 <div class="media">
-                    <img src="assets/img/banner.jpg" alt="">
+                    <img src="assets/img/s-1.jpeg" alt="">
                 </div>
             </div>
             <div class="uk-padding">

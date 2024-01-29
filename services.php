@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="texture">
-        <img src="https://hotelpadma.com.np/wp-content/themes/wp-bootstrap-starter/images/texture.png" alt="">
+        <img src="assets/img/texture.png" alt="">
     </div>
 </section>
 <section class="uk-section">
@@ -19,7 +19,7 @@
             <!--first services  -->
             <div>
                 <div class="media">
-                    <img src="assets/img/banner.jpg" alt="">
+                    <img src="assets/img/s-1.jpeg" alt="">
                 </div>
             </div>
             <div class="">
@@ -57,13 +57,13 @@
             </div>
             <div>
                 <div class="media">
-                    <img src="assets/img/banner.jpg" alt="">
+                    <img src="assets/img/s-2.jpg" alt="">
                 </div>
             </div>
             <!-- third services -->
             <div>
                 <div class="media">
-                    <img src="assets/img/banner.jpg" alt="">
+                    <img src="assets/img/s-3.jpg" alt="">
                 </div>
             </div>
             <div class="">

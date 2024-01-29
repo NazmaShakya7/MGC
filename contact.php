@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="texture">
-        <img src="https://hotelpadma.com.np/wp-content/themes/wp-bootstrap-starter/images/texture.png" alt="">
+        <img src="assets/img/texture.png" alt="">
     </div>
 </section>
 <section class="uk-section">
